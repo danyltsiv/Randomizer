@@ -1,0 +1,30 @@
+body{
+	text-align:center;	
+	color:#5c5c3d;
+	padding:0 23%;
+}
+body *{
+	font-size:1.5vw;
+}
+.frame{
+	border:2px solid #ccff66;
+	padding:2% 0;
+}
+#goBtn,#clrBtn{
+	height:7vh;
+	width:8vw;
+}
+.error{
+	color:red;
+	border:1px red solid;
+}
+.reseted{
+	color:green;
+	border:1px green solid;
+}
+.error, .reseted{
+	font-size:1vw;
+}
+h1{
+	font-size: 3vh;
+}

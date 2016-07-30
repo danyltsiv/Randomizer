@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Randomizer</title> 
+        <link rel="stylesheet" href="src/styles/main.css">
+	</head>
+
+	<body>
+		<h1>Welcome to Randomizer</h1>
+		<div class="frame">
+		<p>Choose interval:</p>
+		<label for="from">From:</label><input id="from" type="number">
+		<label for="to">To:</label><input id="to" type="number"><br><br>
+		<label for="unique">Unique:</label><input id="unique" type="checkbox">
+		<input type="button" value="Reset" id="clrBtn" disabled="true"><br><br>
+		<input type="button" id="goBtn" value="Go">
+		</div>
+		<div id="number"></div>
+        <script src="build/scripts/main.js"></script>
+    </body>
+    </html>
